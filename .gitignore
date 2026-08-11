@@ -1,0 +1,87 @@
+# --- Java / Maven（backend/） ---
+target/
+*.class
+*.jar
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# --- 前端（frontend/） ---
+node_modules/
+dist/
+coverage/
+
+# --- IDE ---
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# --- 运行期产物 ---
+logs/
+*.log
+
+# --- 系统 ---
+.DS_Store
+Thumbs.db
+
+# ============================================================================
+# 非项目文件：AI 工具/本地工具配置一律不入库（项目仅保留必要源码与文档）
+# ============================================================================
+.agents/
+.claude/
+.reasonix/
+.opencode/
+opencode.json
+skills-lock.json
+.codex/
+.cursor/
+.copilot/
+.aider*
+
+# ============================================================================
+# 生产/敏感数据脱敏：含真实数据、真实凭据或可还原生产的文件一律不入库
+# ============================================================================
+
+# 环境变量（真实密钥/Token 通常放这里）
+.env
+.env.*
+!.env.example
+*.local
+
+# 生产/测试/预发配置（本地复制或下载生成，含真实连接串与密钥）
+backend/**/application-prod*.yml
+backend/**/application-production*.yml
+backend/**/application-test*.yml
+backend/**/application-staging*.yml
+backend/**/application-live*.yml
+
+# 数据库导出/备份/脱敏前快照（生产数据拷贝）
+dump-*.sql
+backup*.sql
+*-backup.sql
+*-dump.sql
+*-prod.sql
+*-production.sql
+*.sql.bak
+*.sql.old
+*db-snapshot*
+
+# 数据导出与中间文件
+*.csv
+*.xlsx
+*.jsonl
+
+# 密钥与凭据文件
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+.credentials
+.aws/
+secrets.*
+id_rsa*
+id_ed25519*
