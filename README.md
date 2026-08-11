@@ -29,15 +29,15 @@
 
 | 首页 | 商品列表 | 商品详情 |
 |---|---|---|
-| ![首页](![img.png](img.png)) | ![商品列表](![img_1.png](img_1.png)) | ![商品详情](![img_2.png](img_2.png)) |
+| ![首页](https://raw.githubusercontent.com/zchengyu854/DyShop/main/docs/screenshots/home.png) | ![商品列表](https://raw.githubusercontent.com/zchengyu854/DyShop/main/docs/screenshots/products.png) | ![商品详情](https://raw.githubusercontent.com/zchengyu854/DyShop/main/docs/screenshots/detail.png) |
 
 | 购物车 | 结算 | 个人中心 |
 |---|---|---|
-| ![购物车](![img_3.png](img_3.png)) | ![结算](![img_4.png](img_4.png)) | ![个人中心](![img_5.png](img_5.png)) |
+| ![购物车](https://raw.githubusercontent.com/zchengyu854/DyShop/main/docs/screenshots/cart.png) | ![结算](https://raw.githubusercontent.com/zchengyu854/DyShop/main/docs/screenshots/checkout.png) | ![个人中心](https://raw.githubusercontent.com/zchengyu854/DyShop/main/docs/screenshots/user-center.png) |
 
 | 后台管理 | 积分商城 | 优惠券 |
 |---|---|---|
-| ![后台管理](![img_6.png](img_6.png)) | ![积分商城](![img_7.png](img_7.png)) | ![优惠券](![img_8.png](img_8.png)) |
+| ![后台管理](https://raw.githubusercontent.com/zchengyu854/DyShop/main/docs/screenshots/admin.png) | ![积分商城](https://raw.githubusercontent.com/zchengyu854/DyShop/main/docs/screenshots/points.png) | ![优惠券](https://raw.githubusercontent.com/zchengyu854/DyShop/main/docs/screenshots/coupons.png) |
 
 ## 功能地图
 
