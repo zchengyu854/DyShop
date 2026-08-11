@@ -23,6 +23,22 @@
 - 认证：C 端 / 后台双 JWT 会话（`frontend/src/utils/auth.js` 双 token，互不影响）
 - 浏览历史为设备本地数据（localStorage），不落库
 
+## 项目截图（Screenshots）
+
+> 截图统一放入 `docs/screenshots/`，替换下方文件名即可（建议 1200px 宽、PNG）。
+
+| 首页 | 商品列表 | 商品详情 |
+|---|---|---|
+| ![首页](![img.png](img.png)) | ![商品列表](![img_1.png](img_1.png)) | ![商品详情](![img_2.png](img_2.png)) |
+
+| 购物车 | 结算 | 个人中心 |
+|---|---|---|
+| ![购物车](![img_3.png](img_3.png)) | ![结算](![img_4.png](img_4.png)) | ![个人中心](![img_5.png](img_5.png)) |
+
+| 后台管理 | 积分商城 | 优惠券 |
+|---|---|---|
+| ![后台管理](![img_6.png](img_6.png)) | ![积分商城](![img_7.png](img_7.png)) | ![优惠券](![img_8.png](img_8.png)) |
+
 ## 功能地图
 
 | 模块 | 章节文档 | 说明 |
